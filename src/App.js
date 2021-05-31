@@ -19,6 +19,7 @@ import ShoppingCartUDEMY from "./components/ShoppingCartUDEMY";
 // import Home from "./components/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import UdemyListForm from "./components/UdemyListFrom";
+import UdemyHooksTutorial from "./components/UdemyHooksTutorial";
 
 
 function App() {
@@ -90,6 +91,10 @@ function App() {
 
                     <Route exact path="/UdemyListForm">
                         <UdemyListForm />
+                    </Route>
+
+                    <Route exact path="/UdemyHooksTutorial">
+                        <UdemyHooksTutorial />
                     </Route>
                 </Switch>
 
